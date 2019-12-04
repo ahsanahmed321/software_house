@@ -1,0 +1,45 @@
+.NavBar {
+  background-color: rgb(255, 165, 0)
+}
+
+.NavBar>.active {
+  border-bottom: 1px solid red;
+}
+
+.NavItem {
+  font-weight: bold !important;
+  text-decoration: none !important;
+  list-style: none !important;
+  text-align: right !important;
+}
+
+.NavBrand {
+  color: white;
+}
+
+.NavMenu {
+  display: none;
+}
+
+.Drawer {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  z-index: 100;
+  background-color: rgb(0, 115, 230);
+}
+
+.DrawerItem {
+  color: white;
+  margin-top: 32px;
+}
+
+@media (max-width: 650px) {
+  .NavItems {
+    display: none;
+  }
+
+  .NavMenu {
+    display: inline-block !important;
+  }
+}
