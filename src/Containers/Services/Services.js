@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import classes from "./Services.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMobile } from "@fortawesome/free-solid-svg-icons";
+import {
+  faMobile,
+  faDesktop,
+  faRobot
+} from "@fortawesome/free-solid-svg-icons";
 import { Row, Col, Container } from "reactstrap";
 
 class Services extends Component {
@@ -9,11 +13,9 @@ class Services extends Component {
     return (
       <div className={classes.page} id="services">
         <Container className={classes.container}>
+          <h1 style={{ color: "white" }}>Services</h1>
           <Row>
-            <h1 style={{ color: "white" }}>Services</h1>
-          </Row>
-          <Row>
-            <Col xs="12" sm="12" md="4">
+            <Col className={classes.service} xs="12" sm="12" md="4">
               <FontAwesomeIcon
                 style={{ color: "gold", fontSize: "4rem" }}
                 icon={faMobile}
@@ -29,10 +31,10 @@ class Services extends Component {
                 felis eu pede mollis
               </p>
             </Col>
-            <Col xs="12" sm="12" md="4">
+            <Col className={classes.service} xs="12" sm="12" md="4">
               <FontAwesomeIcon
                 style={{ color: "gold", fontSize: "4rem" }}
-                icon={faMobile}
+                icon={faDesktop}
               />
               <p className={classes.para}>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -45,10 +47,10 @@ class Services extends Component {
                 felis eu pede mollis
               </p>
             </Col>
-            <Col xs="12" sm="12" md="4">
+            <Col className={classes.service} xs="12" sm="12" md="4">
               <FontAwesomeIcon
                 style={{ color: "gold", fontSize: "4rem" }}
-                icon={faMobile}
+                icon={faRobot}
               />
               <p className={classes.para}>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

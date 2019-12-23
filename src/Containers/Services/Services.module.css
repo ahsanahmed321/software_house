@@ -1,11 +1,15 @@
 .page {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .para {
-    color: white;
+  color: white;
 }
 
 .container {
-    margin-top: 8rem;
+  margin-top: 8rem;
+}
+
+.service {
+  padding: 32px;
 }
