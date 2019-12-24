@@ -16,7 +16,7 @@ class Team extends Component {
         <Container>
           <h1 style={{ color: "white" }}>Team</h1>
           <Row>
-            <Col sm={1} md={6} lg={4}>
+            <Col sm={12} md={6} lg={4}>
               <Figure className={classes.figure}>
                 <Figure.Image
                   width={171}
@@ -28,7 +28,7 @@ class Team extends Component {
                 <Figure.Caption>Data Scientist</Figure.Caption>
               </Figure>
             </Col>
-            <Col sm={1} md={6} lg={4}>
+            <Col sm={12} md={6} lg={4}>
               <Figure className={classes.figure}>
                 <Figure.Image
                   width={171}
@@ -40,7 +40,7 @@ class Team extends Component {
                 <Figure.Caption>Blockchain Developer</Figure.Caption>
               </Figure>
             </Col>
-            <Col sm={1} md={6} lg={4}>
+            <Col sm={12} md={6} lg={4}>
               <Figure className={classes.figure}>
                 <Figure.Image
                   width={171}
@@ -52,7 +52,7 @@ class Team extends Component {
                 <Figure.Caption>Mern Stack Developer</Figure.Caption>
               </Figure>
             </Col>
-            <Col sm={1} md={6} lg={4}>
+            <Col sm={12} md={6} lg={4}>
               <Figure className={classes.figure}>
                 <Figure.Image
                   width={171}
@@ -64,7 +64,7 @@ class Team extends Component {
                 <Figure.Caption>Frontend Developer</Figure.Caption>
               </Figure>
             </Col>
-            <Col sm={1} md={6} lg={4}>
+            <Col sm={12} md={6} lg={4}>
               <Figure className={classes.figure}>
                 <Figure.Image
                   width={171}
@@ -78,7 +78,7 @@ class Team extends Component {
                 </Figure.Caption>
               </Figure>
             </Col>
-            <Col sm={1} md={6} lg={4}>
+            <Col sm={12} md={6} lg={4}>
               <Figure className={classes.figure}>
                 <Figure.Image
                   width={171}

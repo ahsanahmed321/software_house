@@ -15,7 +15,7 @@ class Services extends Component {
         <Container className={classes.container}>
           <h1 style={{ color: "white" }}>Services</h1>
           <Row>
-            <Col className={classes.service} xs="12" sm="12" md="4">
+            <Col className={classes.service} xs="12" sm="12" md="12" lg="4">
               <FontAwesomeIcon
                 style={{ color: "gold", fontSize: "4rem" }}
                 icon={faMobile}
@@ -31,7 +31,7 @@ class Services extends Component {
                 felis eu pede mollis
               </p>
             </Col>
-            <Col className={classes.service} xs="12" sm="12" md="4">
+            <Col className={classes.service} xs="12" sm="12" md="12" lg="4">
               <FontAwesomeIcon
                 style={{ color: "gold", fontSize: "4rem" }}
                 icon={faDesktop}
@@ -47,7 +47,7 @@ class Services extends Component {
                 felis eu pede mollis
               </p>
             </Col>
-            <Col className={classes.service} xs="12" sm="12" md="4">
+            <Col className={classes.service} xs="12" sm="12" md="12" lg="4">
               <FontAwesomeIcon
                 style={{ color: "gold", fontSize: "4rem" }}
                 icon={faRobot}

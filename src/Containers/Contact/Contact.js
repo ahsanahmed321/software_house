@@ -9,11 +9,9 @@ class Contact extends Component {
   render() {
     return (
       <div className={classes.page} id="contact">
+        <h1 style={{ color: "white" }}>Contact</h1>
         <Container>
-          <Row>
-            <h1 style={{ color: "white" }}>Contact</h1>
-          </Row>
-          <Row>
+          <Row style={{ paddingTop: "32px" }}>
             <Col>
               <Label style={{ color: "white" }} for="exampleEmail">
                 Email
